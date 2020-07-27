@@ -1,0 +1,39 @@
+.event-number {
+	text-align: center;
+	margin: 1rem auto;
+	padding: 0;
+}
+
+.event-list {
+	list-style: none;
+	margin: 1rem auto 2rem;
+	padding: 0;
+	width: 40rem;
+	max-width: 90%;
+}
+
+.event-list__item {
+	margin: 1rem 0;
+	padding: 1rem;
+	border: 1px solid grey;
+	border-radius: 1.5rem 1.5rem 1.5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: linear-gradient(white, #f2f2f2);
+	h1 {
+		margin: 0;
+		padding: 0.25rem;
+		font-size: 1.5rem;
+		text-transform: capitalize;
+	}
+	h2 {
+		margin: 0;
+		padding: 0.25rem;
+		font-size: 1rem;
+		color: #4682b4;
+	}
+	p {
+		margin: 0;
+	}
+}

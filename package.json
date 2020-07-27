@@ -1,0 +1,18 @@
+{
+  "name": "event-booking",
+  "version": "1.0.0",
+  "description": "event-booking build with GraphQL, Node.js, MongoDB and React.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run front-end\" \"npm run back-end\" ",
+    "front-end": "npm start --prefix ./front-end",
+    "back-end": "nodemon ./back-end/app.js",
+    "setup": "npm install && cd ./back-end && npm install && cd ../front-end && npm install && cd .."
+  },
+  "author": "Thibaut Callabat",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "morgan": "^1.10.0"
+  }
+}

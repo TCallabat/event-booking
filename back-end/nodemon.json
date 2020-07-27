@@ -1,0 +1,8 @@
+{
+    "env": {
+        "ORIGIN": "http://localhost:3001",
+        "MONGO_DB": "event-booking",
+        "PORT": 8000,
+        "SECRET_KEY": "jwt_secret_key"
+    }
+}
